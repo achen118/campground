@@ -48,3 +48,5 @@ var FEATURES = [
     ]
   }
 ];
+
+export default FEATURES;
