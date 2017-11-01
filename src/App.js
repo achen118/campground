@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.scss';
 import Features from './camp_features';
 
 class App extends Component {
