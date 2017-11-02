@@ -2,6 +2,7 @@
   "name": "campground",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/achen118/campground",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -16,9 +17,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "sass": "sass --watch src/styles/scss:src/styles/css"
+    "sass": "sass --watch src/styles/scss:src/styles/css",
+    "deploy": "react-scripts build && gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "webpack": "^3.8.1"
   }
 }
