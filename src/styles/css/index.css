@@ -129,18 +129,41 @@ table {
   border-spacing: 0; }
 
 .App {
-  padding-top: 50px;
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-  background: white;
-  position: relative; }
+  background: #43335C;
+  position: relative;
+  color: white; }
+
+.App-header {
+  background-color: white;
+  text-align: left;
+  border-bottom: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  height: 81px; }
+
+.logo {
+  height: 100%;
+  padding: 26px 33px;
+  border-right: 1px solid #EAEAEA;
+  box-sizing: border-box; }
+
+.tent-image-header {
+  position: absolute;
+  width: 23px;
+  top: 29.5px;
+  left: 117px; }
 
 .App-title {
   color: #684E93;
-  font-size: 28px; }
+  font-size: 36px;
+  font-weight: 700; }
+
+.features {
+  padding-top: 20px; }
 
 footer {
   width: 100%;
@@ -149,7 +172,6 @@ footer {
 
 .footer-top {
   position: relative;
-  background-color: #43335C;
   background-image: url("https://djqvcbmmgpti5.cloudfront.net/assets/sharing/bg-mountains-a03a1fc990a3a32283279cf9cf6e8c1c.svg");
   background-size: 50%;
   background-repeat: repeat-x;
@@ -160,7 +182,7 @@ footer {
 .footer-bottom {
   border-bottom: 40px solid #417D95; }
 
-.tent-image {
+.tent-image-footer {
   position: absolute;
   width: 65px;
   bottom: 0; }

@@ -1,17 +1,44 @@
 .App {
-  padding-top: 50px;
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-  background: white;
+  background: $dark-purple;
   position: relative;
+  color: white;
+}
+
+.App-header {
+  background-color: white;
+  text-align: left;
+  border-bottom: 1px solid $light-gray;
+  box-sizing: border-box;
+  height: 81px;
+}
+
+.logo {
+  height: 100%;
+  padding: 26px 33px;
+  border-right: 1px solid $light-gray;
+  box-sizing: border-box;
+}
+
+.tent-image-header {
+  position: absolute;
+  width: 23px;
+  top: 29.5px;
+  left: 117px;
 }
 
 .App-title {
   color: $bright-purple;
-  font-size: 28px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.features {
+  padding-top: 20px;
 }
 
 footer {
@@ -22,7 +49,6 @@ footer {
 
 .footer-top {
   position: relative;
-  background-color: $dark-purple;
   background-image: url('https://djqvcbmmgpti5.cloudfront.net/assets/sharing/bg-mountains-a03a1fc990a3a32283279cf9cf6e8c1c.svg');
   background-size: 50%;
   background-repeat: repeat-x;
@@ -35,7 +61,7 @@ footer {
   border-bottom: 40px solid $teal;
 }
 
-.tent-image {
+.tent-image-footer {
   position: absolute;
   width: 65px;
   bottom: 0;
