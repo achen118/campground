@@ -1,5 +1,4 @@
 .App {
-  width: 100vw;
   height: 100vh;
   box-sizing: border-box;
   text-align: left;
@@ -7,8 +6,11 @@
   font-size: 20px;
   letter-spacing: 3px;
   background: $dark-purple;
-  position: relative;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .App-header {
@@ -25,13 +27,6 @@
   box-sizing: border-box;
 }
 
-.tent-image-header {
-  position: absolute;
-  width: 23px;
-  top: 29.5px;
-  left: 117px;
-}
-
 .App-title {
   color: $bright-purple;
   font-size: 36px;
@@ -44,10 +39,13 @@
   padding-top: 30px;
 }
 
+.header-and-features {
+  width: 100%;
+}
+
 footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  background-color: $dark-purple;
 }
 
 .footer-top {
@@ -56,7 +54,7 @@ footer {
   background-size: 50%;
   background-repeat: repeat-x;
   background-position: bottom;
-  height: 400px;
+  height: 300px;
   border-bottom: 4px solid $pale-yellow;
 }
 
@@ -85,10 +83,11 @@ footer {
   border-bottom: 1px solid $light-gray;
   width: 30%;
   margin: 0 auto;
+  position: relative;
 }
 
 .sub-feature {
-  padding-left: 15px;
+  padding-left: 30px;
   padding-top: 15px;
 }
 
@@ -96,8 +95,26 @@ footer {
   display: none;
 }
 
+.fa-check, .fa-times, 
 .fa-plus, .fa-minus {
   font-size: 14px;
-  padding-left: 15px;
+}
+
+.fa-check, .fa-times {
+  padding-right: 15px;
+}
+
+.fa-plus, .fa-minus {
+  padding-top: 5px;
+  right: 0;
   cursor: pointer;
+  position: absolute;
+}
+
+.fa-check {
+  color: #43D8AB;
+}
+
+.fa-times {
+  color: #EC6D66;
 }
