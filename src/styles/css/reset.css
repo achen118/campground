@@ -128,47 +128,4 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.App {
-  padding-top: 50px;
-  width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-  text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-  background: white;
-  position: relative; }
-
-.App-title {
-  color: #684E93;
-  font-size: 28px; }
-
-footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0; }
-
-.footer-top {
-  position: relative;
-  background-color: #43335C;
-  background-image: url("https://djqvcbmmgpti5.cloudfront.net/assets/sharing/bg-mountains-a03a1fc990a3a32283279cf9cf6e8c1c.svg");
-  background-size: 50%;
-  background-repeat: repeat-x;
-  background-position: bottom;
-  height: 400px;
-  border-bottom: 4px solid #FDDFA9; }
-
-.footer-bottom {
-  border-bottom: 40px solid #417D95; }
-
-.tent-image {
-  position: absolute;
-  width: 65px;
-  bottom: 0; }
-
-.top-feature {
-  cursor: pointer; }
-
-.hidden {
-  display: none; }
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=reset.css.map */
