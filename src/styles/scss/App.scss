@@ -3,7 +3,8 @@
   height: 100vh;
   box-sizing: border-box;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  letter-spacing: 3px;
   background: $dark-purple;
   position: relative;
   color: white;
@@ -35,10 +36,13 @@
   color: $bright-purple;
   font-size: 36px;
   font-weight: 700;
+  margin-bottom: 30px;
+  margin-left: 160px;
+  text-align: left;
 }
 
 .features {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 footer {
@@ -58,13 +62,22 @@ footer {
 }
 
 .footer-bottom {
-  border-bottom: 40px solid $teal;
+  background-color: $teal;
+  height: 40px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  padding-top: 15px;
 }
 
 .tent-image-footer {
   position: absolute;
   width: 65px;
   bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .top-feature {

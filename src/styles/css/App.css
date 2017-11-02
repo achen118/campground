@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$dark-purple".
-        on line 7 of src/styles/scss/App.scss
+        on line 8 of src/styles/scss/App.scss
 
-2:   width: 100vw;
 3:   height: 100vh;
 4:   box-sizing: border-box;
 5:   text-align: center;
-6:   font-family: Helvetica, Arial, sans-serif;
-7:   background: $dark-purple;
-8:   position: relative;
-9:   color: white;
-10: }
-11: 
-12: .App-header {
+6:   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+7:   letter-spacing: 3px;
+8:   background: $dark-purple;
+9:   position: relative;
+10:   color: white;
+11: }
+12: 
+13: .App-header {
 
 Backtrace:
-src/styles/scss/App.scss:7
+src/styles/scss/App.scss:8
 /home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 /home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
 /home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +69,4 @@ src/styles/scss/App.scss:7
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$dark-purple\".\A         on line 7 of src/styles/scss/App.scss\A \A 2:   width: 100vw;\A 3:   height: 100vh;\A 4:   box-sizing: border-box;\A 5:   text-align: center;\A 6:   font-family: Helvetica, Arial, sans-serif;\A 7:   background: $dark-purple;\A 8:   position: relative;\A 9:   color: white;\A 10: }\A 11: \A 12: .App-header {"; }
+  content: "Error: Undefined variable: \"$dark-purple\".\A         on line 8 of src/styles/scss/App.scss\A \A 3:   height: 100vh;\A 4:   box-sizing: border-box;\A 5:   text-align: center;\A 6:   font-family: 'Roboto', Helvetica, Arial, sans-serif;\A 7:   letter-spacing: 3px;\A 8:   background: $dark-purple;\A 9:   position: relative;\A 10:   color: white;\A 11: }\A 12: \A 13: .App-header {"; }

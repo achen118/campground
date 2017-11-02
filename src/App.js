@@ -61,7 +61,9 @@ class App extends Component {
               src="https://djqvcbmmgpti5.cloudfront.net/assets/sharing/logo-tent-9191c74ffcf517ca0ac12c1f9036dbb0.png"
               alt="Hipcamp Tent" />
           </section>
-          <section className="footer-bottom"></section>
+          <section className="footer-bottom">
+            <p>Created by Alice Chen</p>
+          </section>
         </footer>
       </div>
     );

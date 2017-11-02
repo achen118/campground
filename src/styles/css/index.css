@@ -133,7 +133,8 @@ table {
   height: 100vh;
   box-sizing: border-box;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  letter-spacing: 3px;
   background: #43335C;
   position: relative;
   color: white; }
@@ -160,10 +161,13 @@ table {
 .App-title {
   color: #684E93;
   font-size: 36px;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-left: 160px;
+  text-align: left; }
 
 .features {
-  padding-top: 20px; }
+  padding-top: 30px; }
 
 footer {
   width: 100%;
@@ -180,12 +184,20 @@ footer {
   border-bottom: 4px solid #FDDFA9; }
 
 .footer-bottom {
-  border-bottom: 40px solid #417D95; }
+  background-color: #417D95;
+  height: 40px; }
+
+.footer-bottom p {
+  font-size: 12px;
+  padding-top: 15px; }
 
 .tent-image-footer {
   position: absolute;
   width: 65px;
-  bottom: 0; }
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
 
 .top-feature {
   cursor: pointer; }
