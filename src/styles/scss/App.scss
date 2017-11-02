@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.header-and-features {
+  width: 100%;
+}
+
 .App-header {
   background-color: white;
   border-bottom: 1px solid $light-gray;
@@ -37,45 +41,6 @@
 
 .features {
   padding-top: 30px;
-}
-
-.header-and-features {
-  width: 100%;
-}
-
-footer {
-  width: 100%;
-  background-color: $dark-purple;
-}
-
-.footer-top {
-  position: relative;
-  background-image: url('https://djqvcbmmgpti5.cloudfront.net/assets/sharing/bg-mountains-a03a1fc990a3a32283279cf9cf6e8c1c.svg');
-  background-size: 50%;
-  background-repeat: repeat-x;
-  background-position: bottom;
-  height: 300px;
-  border-bottom: 4px solid $pale-yellow;
-}
-
-.footer-bottom {
-  background-color: $teal;
-  height: 40px;
-}
-
-.footer-bottom p {
-  font-size: 11px;
-  padding-top: 15px;
-  text-align: center;
-}
-
-.tent-image-footer {
-  position: absolute;
-  width: 65px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
 }
 
 .top-feature {
@@ -117,4 +82,39 @@ footer {
 
 .fa-times {
   color: #EC6D66;
+}
+
+footer {
+  width: 100%;
+  background-color: $dark-purple;
+}
+
+.footer-top {
+  position: relative;
+  background-image: url('https://djqvcbmmgpti5.cloudfront.net/assets/sharing/bg-mountains-a03a1fc990a3a32283279cf9cf6e8c1c.svg');
+  background-size: 50%;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  height: 300px;
+  border-bottom: 4px solid $pale-yellow;
+}
+
+.footer-bottom {
+  background-color: $teal;
+  height: 40px;
+}
+
+.footer-bottom p {
+  font-size: 11px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.tent-image-footer {
+  position: absolute;
+  width: 65px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
