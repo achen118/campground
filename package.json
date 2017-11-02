@@ -2,7 +2,7 @@
   "name": "campground",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/achen118/campground",
+  "homepage": "https://achen118.github.io/campground",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
