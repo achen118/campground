@@ -1,5 +1,7 @@
 # campground
 
+### [Live Link](https://achen118.github.io/campground/)
+
 ### Instructions
 
 Using JavaScript (React preferred), CSS (Sass preferred) and the initial
@@ -21,5 +23,3 @@ Adding or removing features from camp_features.js should automatically update th
 DOM when the page is reloaded.
 
 Clear, concise, "production-ready" code will be appreciated.
-
-### [Live Link](https://achen118.github.io/campground/)
