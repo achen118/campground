@@ -132,8 +132,9 @@ table {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 20px;
   letter-spacing: 3px;
   background: #43335C;
   position: relative;
@@ -141,7 +142,6 @@ table {
 
 .App-header {
   background-color: white;
-  text-align: left;
   border-bottom: 1px solid #EAEAEA;
   box-sizing: border-box;
   height: 81px; }
@@ -163,8 +163,7 @@ table {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 30px;
-  margin-left: 160px;
-  text-align: left; }
+  margin-left: 160px; }
 
 .features {
   padding-top: 30px; }
@@ -188,8 +187,9 @@ footer {
   height: 40px; }
 
 .footer-bottom p {
-  font-size: 12px;
-  padding-top: 15px; }
+  font-size: 11px;
+  padding-top: 15px;
+  text-align: center; }
 
 .tent-image-footer {
   position: absolute;
@@ -200,9 +200,21 @@ footer {
   margin: 0 auto; }
 
 .top-feature {
-  cursor: pointer; }
+  padding: 15px;
+  border-bottom: 1px solid #EAEAEA;
+  width: 30%;
+  margin: 0 auto; }
+
+.sub-feature {
+  padding-left: 15px;
+  padding-top: 15px; }
 
 .hidden {
   display: none; }
+
+.fa-plus, .fa-minus {
+  font-size: 14px;
+  padding-left: 15px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=index.css.map */

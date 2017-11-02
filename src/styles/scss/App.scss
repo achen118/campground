@@ -2,8 +2,9 @@
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 20px;
   letter-spacing: 3px;
   background: $dark-purple;
   position: relative;
@@ -12,7 +13,6 @@
 
 .App-header {
   background-color: white;
-  text-align: left;
   border-bottom: 1px solid $light-gray;
   box-sizing: border-box;
   height: 81px;
@@ -38,7 +38,6 @@
   font-weight: 700;
   margin-bottom: 30px;
   margin-left: 160px;
-  text-align: left;
 }
 
 .features {
@@ -67,8 +66,9 @@ footer {
 }
 
 .footer-bottom p {
-  font-size: 12px;
+  font-size: 11px;
   padding-top: 15px;
+  text-align: center;
 }
 
 .tent-image-footer {
@@ -81,9 +81,23 @@ footer {
 }
 
 .top-feature {
-  cursor: pointer;
+  padding: 15px;
+  border-bottom: 1px solid $light-gray;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.sub-feature {
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .hidden {
   display: none;
+}
+
+.fa-plus, .fa-minus {
+  font-size: 14px;
+  padding-left: 15px;
+  cursor: pointer;
 }

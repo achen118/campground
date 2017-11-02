@@ -10,6 +10,8 @@ class App extends Component {
   handleClick(feature) {
     return event => {
       document.getElementById(feature).classList.toggle('hidden');
+      event.target.classList.toggle('fa-plus');
+      event.target.classList.toggle('fa-minus');
     };
   }
 
@@ -33,9 +35,13 @@ class App extends Component {
               Features.map((feature, featureIndex) => (
                 <li
                   className="top-feature"
-                  onClick={ this.handleClick(feature.title) }
                   key={ featureIndex }>
                   { feature.title }
+                  { feature.subfeatures.length > 0 ? <i
+                    onClick={ this.handleClick(feature.title) }
+                    className="fa fa-plus"
+                    aria-hidden="true">
+                  </i> : "" } 
                   <ul
                     id={ feature.title }
                     className="sub-features-list hidden">
