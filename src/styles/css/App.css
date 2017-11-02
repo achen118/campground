@@ -1,72 +1,103 @@
-/*
-Error: Undefined variable: "$dark-purple".
-        on line 8 of src/styles/scss/App.scss
+.App {
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  background: #43335C;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
 
-3:   box-sizing: border-box;
-4:   text-align: left;
-5:   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-6:   font-size: 20px;
-7:   letter-spacing: 3px;
-8:   background: $dark-purple;
-9:   color: white;
-10:   display: flex;
-11:   flex-direction: column;
-12:   justify-content: space-between;
-13:   align-items: center;
+.header-and-features {
+  width: 100%; }
 
-Backtrace:
-src/styles/scss/App.scss:8
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/home/alice/.rvm/gems/ruby-2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$dark-purple\".\A         on line 8 of src/styles/scss/App.scss\A \A 3:   box-sizing: border-box;\A 4:   text-align: left;\A 5:   font-family: 'Roboto', Helvetica, Arial, sans-serif;\A 6:   font-size: 20px;\A 7:   letter-spacing: 3px;\A 8:   background: $dark-purple;\A 9:   color: white;\A 10:   display: flex;\A 11:   flex-direction: column;\A 12:   justify-content: space-between;\A 13:   align-items: center;"; }
+.App-header {
+  background-color: white;
+  border-bottom: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  height: 81px; }
+
+.logo {
+  height: 100%;
+  padding: 26px 33px;
+  border-right: 1px solid #EAEAEA;
+  box-sizing: border-box; }
+
+.App-title {
+  color: #684E93;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-left: 160px; }
+
+.features {
+  padding-top: 30px; }
+
+.top-feature {
+  padding: 15px;
+  border-bottom: 1px solid #EAEAEA;
+  width: 30%;
+  margin: 0 auto;
+  position: relative; }
+
+.sub-feature {
+  padding-left: 30px;
+  padding-top: 15px; }
+
+.hidden {
+  display: none; }
+
+.fa-check, .fa-times,
+.fa-plus, .fa-minus {
+  font-size: 14px; }
+
+.fa-check, .fa-times {
+  padding-right: 15px; }
+
+.fa-plus, .fa-minus {
+  padding-top: 5px;
+  right: 0;
+  cursor: pointer;
+  position: absolute; }
+
+.fa-check {
+  color: #43D8AB; }
+
+.fa-times {
+  color: #EC6D66; }
+
+footer {
+  width: 100%;
+  background-color: #43335C; }
+
+.footer-top {
+  position: relative;
+  background-image: url("https://djqvcbmmgpti5.cloudfront.net/assets/sharing/bg-mountains-a03a1fc990a3a32283279cf9cf6e8c1c.svg");
+  background-size: 50%;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  height: 300px;
+  border-bottom: 4px solid #FDDFA9; }
+
+.footer-bottom {
+  background-color: #417D95;
+  height: 40px; }
+
+.footer-bottom p {
+  font-size: 11px;
+  padding-top: 15px;
+  text-align: center; }
+
+.tent-image-footer {
+  position: absolute;
+  width: 65px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=App.css.map */
