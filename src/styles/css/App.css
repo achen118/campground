@@ -37,16 +37,15 @@
 .features {
   padding-top: 30px; }
 
-.top-feature {
-  padding: 15px;
+.top-features-list li {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #EAEAEA;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
-  position: relative; }
-
-.sub-feature {
-  padding-left: 30px;
-  padding-top: 15px; }
+  position: relative;
+  box-sizing: border-box; }
 
 .hidden {
   display: none; }
@@ -99,5 +98,12 @@ footer {
   left: 0;
   right: 0;
   margin: 0 auto; }
+
+.top-features-list li ul li {
+  border: none;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 0; }
 
 /*# sourceMappingURL=App.css.map */
